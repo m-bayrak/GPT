@@ -34,3 +34,26 @@ You may write helper functions, but there should be one function that:
 
 1. Takes in one argument, which is a string containing the URL for the Google Doc with the input data, AND
 2. When called, prints the grid of characters specified by the input data, displaying a graphic of correctly oriented uppercase letters.
+
+
+## Task
+To verify that your code works, please run your function with this URL as its argument: https://docs.google.com/document/d/e/2PACX-1vSvM5gDlNvt7npYHhp_XfsJvuntUhq184By5xO_pA4b_gCWeXb6dM6ZxwN8rE6S4ghUsCj2VKR21oEP/pub
+
+What is the secret message encoded by this document? Your answer should only contain uppercase letters.
+
+```text
+██░     ██░    ███████░  ██░           ███░ ██████░ ████████░    ████████░     ████████░  
+██░     ██░  ███░    ██░ ███░   ███░   ██░    ██░   ██░     ██░  ██░     ██░ ███░     ███░
+██░     ██░ ███░          ██░  █████░ ███░    ██░   ██░      ██░ ██░     ██░ ██░       ██░
+██████████░ ██░           ███░ ██░██░ ██░     ██░   ██░      ██░ ████████░   ██░       ██░
+██░     ██░ ███░           ██░██░ ██░██░      ██░   ██░      ██░ ██░     ██░ ██░       ██░
+██░     ██░  ███░    ██░   ████░   ████░      ██░   ██░     ██░  ██░     ██░ ███░     ███░
+██░     ██░    ███████░     ██░     ██░     ██████░ ████████░    ████████░     ████████░  
+```
+```text
+HCWIDBO
+```
+
+
+
+docs-google-com-document-d-e-2PACX-1vSvM5gDlNvt7npYHhp_XfsJvuntUhq184By5xO_pA4b_....pdf
