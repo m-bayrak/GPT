@@ -70,3 +70,13 @@ HCWIDBO
 
 **Local File with secret massedge**
 [Open Secret Message PDF](./Secret_Messege.pdf) 
+
+
+## Code explenation
+```text
+The code downloads the published Google Doc as HTML and uses a custom HTML parser to extract all table cell values from the document. It then finds the table headers (`x-coordinate`, `Character`, and `y-coordinate`) and converts every group of three values into a coordinate point containing an x position, a y position, and a Unicode character.
+
+After parsing the points, the program creates a 2D grid large enough to fit all coordinates. Every empty position is filled with a space character, and the Unicode symbols are inserted into their correct positions using their x and y coordinates.
+
+Finally, the code prints the grid row by row. When viewed in a fixed-width font, the printed Unicode characters form the hidden secret message.
+```
