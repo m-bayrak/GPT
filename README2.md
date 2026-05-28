@@ -4,7 +4,21 @@ In this exercise, you will write code to solve a problem. Your code must be in P
 
 ## Problem
 
-You are given a published Google Doc like the example document that contains a list of Unicode characters and their positions in a 2D grid. Your task is to write a function that takes in the URL for such a Google Doc as an argument, retrieves and parses the data in the document, and prints the grid of characters. When printed in a fixed-width font, the characters in the grid will form a graphic showing a sequence of uppercase letters, which is the secret message.
+You are given a published Google Doc like the example document https://docs.google.com/document/d/e/2PACX-1vTMOmshQe8YvaRXi6gEPKKlsC6UpFJSMAk4mQjLm_u1gmHdVVTaeh7nBNFBRlui0sTZ-snGwZM4DBCT/pub 
+
+**Sheet from Google link**
+| x-coordinate | Character | y-coordinate |
+|---|---|---|
+| 0 | █ | 0 |
+| 0 | █ | 1 |
+| 0 | █ | 2 |
+| 1 | ▀ | 1 |
+| 1 | ▀ | 2 |
+| 2 | ▀ | 1 |
+| 2 | ▀ | 2 |
+| 3 | ▀ | 2 |
+
+ that contains a list of Unicode characters and their positions in a 2D grid. Your task is to write a function that takes in the URL for such a Google Doc as an argument, retrieves and parses the data in the document, and prints the grid of characters. When printed in a fixed-width font, the characters in the grid will form a graphic showing a sequence of uppercase letters, which is the secret message.
 
 The document specifies the Unicode characters in the grid, along with the x- and y-coordinates of each character.
 
@@ -54,6 +68,5 @@ What is the secret message encoded by this document? Your answer should only con
 HCWIDBO
 ```
 
-
-
-docs-google-com-document-d-e-2PACX-1vSvM5gDlNvt7npYHhp_XfsJvuntUhq184By5xO_pA4b_....pdf
+**Local File with secret massedge**
+[Open Secret Message PDF](./Secret_Messege.pdf) 
